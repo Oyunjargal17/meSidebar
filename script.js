@@ -4,7 +4,6 @@ const btnX = document.querySelector(".btnX");
 
 btn.addEventListener("click", () => {
   menus.classList.toggle("active");
-  btn.classList.toggle("rotate");
   btnX.classList.toggle("rotateX");
 });
 btnX.addEventListener("click", () => {
